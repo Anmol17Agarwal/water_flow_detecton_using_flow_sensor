@@ -41,14 +41,19 @@ Pulses=7.5×Q
 Q=Pulses/7.5 (This is flow rate in Litres/min)
 Q=Pulses/(7.5×60) (This is flow rate in Litres/hour)
 
-![alt text]()
+![alt text](https://github.com/Anmol17Agarwal/water_flow_detecton_using_flow_sensor/blob/main/connection.png)
 
 ## Water Flow Detection
 Snapshot of the water flow setup is shown in figure .According to flow meter sensor’s data sheet 5600 pulses = 1 litres. The program is written to send the data every second.First of all, a small tank with low pressure was used. The data was like this (The liquid used here is water) 258L/hour,321 L/hour,278 L/hour,345 L/hour etc. The water flow was very slow. But even when the water is turned OFF there were some reading like 20L/hour, 31L/hour, etc.indicating zero error. All the components were checked carefully, It was found to be loose connection between the interrupt pins in arduino, sending blank pulses to the serial port and has been rectified. Now the connections are checked again and the water flow is switched ON. Now there is no error and the data it shows is perfect when the water is switched OFF it correctly shows 0 L/hour.
 
 ![alt text](https://github.com/Anmol17Agarwal/water_flow_detecton_using_flow_sensor/blob/main/Untitled.png)
 
+## TECH News
+
+**New type of atomic clock keeps time even more precisely!**
+
+The design, which uses entangled atoms, could help scientists detect dark matter and study gravity's effect on time. A newly-designed atomic clock uses entangled atoms to keep time even more precisely than its state-of-the-art counterparts. The design could help scientists detect dark matter and study gravity's effect on time.
 
 
 
-"Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less!"
+"Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less!" - Marie Curie
